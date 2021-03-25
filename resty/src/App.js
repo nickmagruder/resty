@@ -3,6 +3,7 @@ import './app.scss';
 import Header from './components/header/header.js';
 import Form from './components/form/form.js';
 import Footer from './components/footer/footer.js';
+import If from './components/if/if.js';
 
 class App extends React.Component {
   constructor() {
@@ -21,3 +22,6 @@ class App extends React.Component {
 }
 
 export default App;
+
+
+//  e.target.method.value
